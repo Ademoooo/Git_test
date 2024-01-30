@@ -18,15 +18,15 @@ header {
     padding: 0px 20px ;
 }
 img{
-    width: 20px;
+    width: 30px;
 }
 .full:hover{
-    width: 25px;
+    width: 35px;
 }
 h1{
     font-family: Baby_coffee;
     color: white;
-    font-size: 30px;
+    font-size: 50px;
 }
 ul{
     display: flex;
@@ -47,9 +47,11 @@ a:hover {
 }
 .a_propos{
     padding: 5px;
-    font-size: 10px;
+    font-size: 20px;
+
 }
 
 #separation{
     border-left: 2px white solid;
+    margin: 5px;
 }

@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Baby_coffee;
+    src: url(/assets/fonts/Baby_Coffee.woff);
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(/assets/fonts/Montserrat.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-color: #7D0D23;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px ;
+}
+img{
+    width: 20px;
+}
+.full:hover{
+    width: 25px;
+}
+h1{
+    font-family: Baby_coffee;
+    color: white;
+    font-size: 30px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    color: white;
+    padding: 5px;
+}
+nav {
+    display: flex;
+    padding: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    font-weight: bold;
+}
+.a_propos{
+    padding: 5px;
+    font-size: 10px;
+}
+
+#separation{
+    border-left: 2px white solid;
+}
